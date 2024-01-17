@@ -34,6 +34,10 @@ function Buscador() {
         climasFiltrados = climas;
     }
 
+    // Orden de arreglo con sort
+    climasFiltrados.sort((a,b) => 
+        a.Estado.toLowerCase().localeCompare(b.Estado.toLowerCase())
+    )
 
     return (
         <div>

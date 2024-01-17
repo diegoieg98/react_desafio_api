@@ -20,9 +20,6 @@ useEffect(() => {
 obtenerClima();
 }, []);
 
-const filtrado = (e) => {
-setFiltrar(e.target.value);
-};
 
 
 return (
